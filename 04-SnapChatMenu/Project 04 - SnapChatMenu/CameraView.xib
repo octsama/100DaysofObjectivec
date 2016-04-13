@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraView">
+            <connections>
+                <outlet property="cameraView" destination="Nk4-ih-6T6" id="3F2-2K-97u"/>
+                <outlet property="tempImageView" destination="5J5-jn-KDd" id="mLW-pd-7aA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nk4-ih-6T6">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5J5-jn-KDd">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Nk4-ih-6T6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4eV-BM-BA1"/>
+                <constraint firstItem="Nk4-ih-6T6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7LS-Yc-bF0"/>
+                <constraint firstAttribute="trailing" secondItem="Nk4-ih-6T6" secondAttribute="trailing" id="9nx-bV-gn5"/>
+                <constraint firstAttribute="trailing" secondItem="5J5-jn-KDd" secondAttribute="trailing" id="Nye-FV-1So"/>
+                <constraint firstItem="5J5-jn-KDd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="TeY-4e-t6Z"/>
+                <constraint firstAttribute="bottom" secondItem="5J5-jn-KDd" secondAttribute="bottom" id="fYg-L2-RTe"/>
+                <constraint firstAttribute="bottom" secondItem="Nk4-ih-6T6" secondAttribute="bottom" id="i89-Km-8d4"/>
+                <constraint firstItem="5J5-jn-KDd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ud8-Xn-vZB"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

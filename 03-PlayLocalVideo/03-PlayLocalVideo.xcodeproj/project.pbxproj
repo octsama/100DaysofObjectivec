@@ -13,6 +13,8 @@
 		B50309641C9267D500167792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50309621C9267D500167792 /* Main.storyboard */; };
 		B50309661C9267D500167792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50309651C9267D500167792 /* Assets.xcassets */; };
 		B50309691C9267D500167792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50309671C9267D500167792 /* LaunchScreen.storyboard */; };
+		B50309741C9269EA00167792 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B50309731C9269EA00167792 /* VideoCell.m */; };
+		B50309781C92A22C00167792 /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B50309711C9268AC00167792 /* emoji zone.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		B50309651C9267D500167792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B50309681C9267D500167792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B503096A1C9267D500167792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50309711C9268AC00167792 /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
+		B50309721C9269EA00167792 /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		B50309731C9269EA00167792 /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +67,11 @@
 				B503095D1C9267D500167792 /* AppDelegate.m */,
 				B503095F1C9267D500167792 /* ViewController.h */,
 				B50309601C9267D500167792 /* ViewController.m */,
+				B50309721C9269EA00167792 /* VideoCell.h */,
+				B50309731C9269EA00167792 /* VideoCell.m */,
 				B50309621C9267D500167792 /* Main.storyboard */,
 				B50309651C9267D500167792 /* Assets.xcassets */,
+				B50309701C92689200167792 /* Movie */,
 				B50309671C9267D500167792 /* LaunchScreen.storyboard */,
 				B503096A1C9267D500167792 /* Info.plist */,
 				B50309591C9267D500167792 /* Supporting Files */,
@@ -77,6 +85,14 @@
 				B503095A1C9267D500167792 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B50309701C92689200167792 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				B50309711C9268AC00167792 /* emoji zone.mp4 */,
+			);
+			name = Movie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50309781C92A22C00167792 /* emoji zone.mp4 in Resources */,
 				B50309691C9267D500167792 /* LaunchScreen.storyboard in Resources */,
 				B50309661C9267D500167792 /* Assets.xcassets in Resources */,
 				B50309641C9267D500167792 /* Main.storyboard in Resources */,
@@ -150,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B50309611C9267D500167792 /* ViewController.m in Sources */,
+				B50309741C9269EA00167792 /* VideoCell.m in Sources */,
 				B503095E1C9267D500167792 /* AppDelegate.m in Sources */,
 				B503095B1C9267D500167792 /* main.m in Sources */,
 			);
